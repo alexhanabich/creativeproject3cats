@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="wholePage">
   <div class="wrapper">
     <div class="search">
       <form class="pure-form">
@@ -25,13 +25,17 @@ export default {
   },
   computed: {
     cats() {
-       return this.$root.$data.cats.filter(cat => cat.name.toLowerCase().search(this.searchText) >= 0);
+      return this.$root.$data.cats.filter(cat => cat.name.toLowerCase().search(this.searchText) >= 0);
     }
   },
 }
 </script>
 
 <style scoped>
+.wholePage {
+  background-color: #C6B89B;
+}
+
 .wrapper {
   display: flex;
   align-items: center;

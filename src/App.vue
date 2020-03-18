@@ -3,7 +3,7 @@
   <div id="menu">
     <div id="brand">
       <router-link to="/">
-        <img src="/images/catFavicon.ico">
+        <img src="/images/catLogo.jpg">
       </router-link>
     </div>
     <div id="side">
@@ -32,7 +32,7 @@
 
 body {
   margin: 50px 100px;
-
+  background-color: #C6B89B;
 }
 
 #menu {
