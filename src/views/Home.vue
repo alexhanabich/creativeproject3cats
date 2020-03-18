@@ -68,3 +68,6 @@ input {
   height: 40px;
 }
 </style>
+
+<!-- HERE IS A LINK TO THE COLOR SCHEME THAT HAS BEEN GENERATED FROM THE MAIN image
+https://coolors.co/918978-c6b89b-2e292d-746960-211807 -->
