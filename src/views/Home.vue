@@ -46,11 +46,15 @@ export default {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 50%;
+  border-radius: 10px;
+  background-color: white;
 }
 
 form {
   display: table;
-  width: 100%;
+  align-self: center;
+  width: 99%;
+  border-radius: 10px;
 }
 
 i {

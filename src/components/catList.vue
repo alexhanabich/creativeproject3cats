@@ -68,7 +68,7 @@ export default {
 .info {
   background: #2E292D;
   color: white;
-  font-size: small !important;
+  font-size: large !important;
   /* color: #000; */
   padding: 10px 30px;
   height: 80px;
@@ -90,6 +90,7 @@ export default {
 
 .gender {
   display: flex;
+  font-size: 75%;
 }
 
 button {

@@ -41,6 +41,8 @@ body {
   grid-column-gap: 5px;
   grid-template-areas: "none brand side";
   margin-bottom: 50px;
+  font-size: 150%;
+  /* Changes the font size of the menu items on the top right */
 }
 
 #menu a {
@@ -54,7 +56,7 @@ body {
 }
 
 #brand img {
-  height: 200px;
+  height: 400px;
 }
 
 #side {
