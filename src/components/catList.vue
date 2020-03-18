@@ -57,6 +57,8 @@ export default {
   height: 250px;
   width: 200px;
   object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .cat .image {
@@ -72,6 +74,8 @@ export default {
   /* color: #000; */
   padding: 10px 30px;
   height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .info h1 {
