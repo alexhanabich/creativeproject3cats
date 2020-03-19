@@ -1,14 +1,26 @@
 <template>
 <div class="wrapper">
+
+
+
   <div class="cats">
 
     <h1 v-if="liked.length === 0">Oh No! You didn't like any cats!</h1>
 
+    <div v-if="liked.length > 0">
+      <div class="specialNotice">
+        <h1>Here are all the <br> cats you liked! <br> <br> But I know you <br> love all of them!</h1>
+      </div>
+    </div>
+
     <div class="cat" v-for="cat in liked" :key="cat.id">
+
+
+
 
       <div class="info">
         <h1>{{cat.name}}</h1>
-        <p>{{cat.category}}</p>
+        <!-- <p>{{cat.category}}</p> -->
       </div>
 
       <div class="image">
@@ -39,8 +51,8 @@ export default {
   methods: {
     unLike: function(cat) {
       var filteredliked = [];
-        filteredliked = this.$root.$data.liked.filter(item => item !== cat)
-        this.$root.$data.liked = filteredliked
+      filteredliked = this.$root.$data.liked.filter(item => item !== cat)
+      this.$root.$data.liked = filteredliked
     }
   },
 }
@@ -55,57 +67,84 @@ export default {
   align-items: center;
   justify-content: center;
 }
+
 .cats {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
+
 .cat {
   margin: 10px;
   margin-top: 50px;
   width: 200px;
 }
+
 .cat img {
   border: 2px solid #333;
   height: 250px;
   width: 200px;
   object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
+
 .cat .image {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
+
 }
+
 .info {
-  background: #008080;
-  color: #000;
+  background: #2E292D;
+  color: white;
   padding: 10px 30px;
   height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
+
+.specialNotice {
+  background: white;
+  color: black;
+  padding: 10px 30px;
+  height: 280px;
+  border-radius: 50px;
+  border-bottom-right-radius: 0;
+}
+
 .info h1 {
-  font-size: 16px;
+  font-size: 25px;
 }
+
 .info h2 {
   font-size: 14px;
 }
+
 .info p {
   margin: 0px;
   font-size: 10px;
 }
+
 .gender {
   display: flex;
 }
+
 .quantity {
   display: flex;
   justify-content: center;
 }
+
 button {
   height: 50px;
   background: #000;
   color: white;
   border: none;
 }
+
 .auto {
   margin-left: auto;
 }

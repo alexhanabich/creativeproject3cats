@@ -73,7 +73,7 @@ export default {
   font-size: large !important;
   /* color: #000; */
   padding: 10px 30px;
-  height: 80px;
+  height: 65px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
