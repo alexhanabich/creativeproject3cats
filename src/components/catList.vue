@@ -4,13 +4,13 @@
     <div class="cat" v-for="cat in cats" :key="cat.id">
       <div class="info">
         <h1>{{cat.name}}</h1>
-        <p>{{cat.category}}</p>
+        <!-- <p>{{cat.category}}</p> -->
       </div>
       <div class="image">
         <img :src="'/images/'+cat.image">
       </div>
       <div class="gender">
-        <h2>{{cat.gender}}</h2>
+        <h2>{{cat.name}} is a {{cat.category}} {{cat.gender}} cat!</h2>
         <button class="auto" @click="addLiked(cat)">Like</button>
       </div>
     </div>
@@ -79,7 +79,7 @@ export default {
 }
 
 .info h1 {
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .info h2 {
@@ -102,6 +102,7 @@ button {
   background: #000;
   color: white;
   border: none;
+  border-radius: 7px;
 }
 
 .auto {

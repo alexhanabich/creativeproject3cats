@@ -2,7 +2,7 @@
 <div class="wrapper">
   <div class="cats">
 
-    <p v-if="liked.length === 0">You didn't like any photos!</p>
+    <h1 v-if="liked.length === 0">Oh No! You didn't like any cats!</h1>
 
     <div class="cat" v-for="cat in liked" :key="cat.id">
 
