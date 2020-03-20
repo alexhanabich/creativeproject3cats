@@ -29,7 +29,9 @@ export default {
   },
   methods: {
     addLiked: function(cat) {
-        this.$root.$data.liked.push(cat);
+        if (cat.like === 0) {
+          this.$root.$data.liked.push(cat);
+        }
         cat.like += 1;
     }
   }
