@@ -5,7 +5,7 @@
 
   <div class="cats">
 
-    <h1 v-if="liked.length === 0">Oh No! You didn't like any cats!</h1>
+    <h1 class="noLike" v-if="liked.length === 0">Oh No! You didn't like any cats!</h1>
 
     <div v-if="liked.length > 0">
       <div class="specialNotice">
@@ -148,4 +148,10 @@ button {
 .auto {
   margin-left: auto;
 }
+
+.noLike {
+  font-family: 'Amatic SC';
+  font-size: 70px;
+}
+
 </style>

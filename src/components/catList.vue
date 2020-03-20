@@ -10,8 +10,11 @@
         <img :src="'/images/'+cat.image">
       </div>
       <div class="gender">
-        <h2>{{cat.name}} is a {{cat.category}} {{cat.gender}} cat!</h2>
-        <button class="auto" @click="addLiked(cat)">Like</button>
+        <!--<h2>{{cat.name}} is a {{cat.category}} {{cat.gender}} cat!</h2>-->
+        <h2 v-if="cat.gender === 'Male'"><i class="fas fa-mars fa-2x" style="color:#2F81C7;"></i></h2>
+        <h2 v-if="cat.gender === 'Female'"><i class="fas fa-venus fa-2x" style="color:#E4787E"></i></h2>
+        <h2 class ="category"> {{cat.category}} </h2>
+        <button class="auto" @click="addLiked(cat)"><i class="far fa-thumbs-up fa-2x"></i></button>
       </div>
     </div>
   </div>
@@ -107,5 +110,11 @@ button {
 
 .auto {
   margin-left: auto;
+}
+
+.category {
+  margin-left: auto;
+  margin-top: auto;
+  font-family: 'Amatic SC';font-size: 30px
 }
 </style>

@@ -9,6 +9,7 @@
   </div>
   <catList :cats="cats" />
 </div>
+
 </template>
 
 <script>
