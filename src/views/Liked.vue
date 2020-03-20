@@ -1,8 +1,5 @@
 <template>
 <div class="wrapper">
-
-
-
   <div class="cats">
 
     <h1 class="noLike" v-if="liked.length === 0">Oh No! You didn't like any cats!</h1>

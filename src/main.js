@@ -7,7 +7,8 @@ Vue.config.productionTip = false
 
 let data = {
   cats: mock,
-  liked: []
+  liked: [],
+  //numLike: new Array(27).fill(0),
 }
 
 new Vue({

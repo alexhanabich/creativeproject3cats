@@ -5,35 +5,40 @@ let mock = [
     name: "Alex and Ron",               // name
     gender: "Male",             // price
     category: "beautiful",  // country
-    image: 'beautifulCat01.jpg' // image
+    image: 'beautifulCat01.jpg', // image
+    like: 0
   },
   {
     id: 2,
     name: "Jay",
     gender: "Female",
     category: "beautiful",
-    image: "beautifulCat02.jpg"
+    image: "beautifulCat02.jpg",
+    like: 0
   },
   {
     id: 3,
     name: "Hikaru",
     gender: "Male",
     category: "beautiful",
-    image: 'beautifulCat03.jpg'
+    image: 'beautifulCat03.jpg',
+    like: 0
   },
   {
     id: 4,
     name: "John",
     gender: "Male",
     category: "beautiful",
-    image: 'beautifulCat04.jpg'
+    image: 'beautifulCat04.jpg',
+    like: 0
   },
   {
     id: 5,
     name: "Rei",
     gender: "Male",
     category: "beautiful",
-    image: 'beautifulCat05.jpg'
+    image: 'beautifulCat05.jpg',
+    like: 0
 
   },
   {
@@ -41,28 +46,32 @@ let mock = [
     name: "Markus",
     gender: "Male",
     category: "beautiful",
-    image: 'beautifulCat06.jpg'
+    image: 'beautifulCat06.jpg',
+    like: 0
   },
   {
     id: 7,
     name: "Steve",
     gender: "Male",
     category: "beautiful",
-    image: 'beautifulCat07.jpg'
+    image: 'beautifulCat07.jpg',
+    like: 0
   },
   {
     id: 8,
     name: "Will",
     gender: "Male",
     category: "beautiful",
-    image: 'beautifulCat08.jpg'
+    image: 'beautifulCat08.jpg',
+    like: 0
   },
   {
     id: 9,
     name: "Emily and Jane",
     gender: "Female",
     category: "beautiful",
-    image: 'beautifulCat09.jpg'
+    image: 'beautifulCat09.jpg',
+    like: 0
   },
 
 
@@ -72,35 +81,40 @@ let mock = [
     name: "Brian",               // name
     gender: "Male",             // price
     category: "cool",  // country
-    image: 'coolCat01.jpg' // image
+    image: 'coolCat01.jpg', // image
+    like: 0
   },
   {
     id: 11,
     name: "Shawn",
     gender: "Male",
     category: "cool",
-    image: "coolCat02.jpg"
+    image: "coolCat02.jpg",
+    like: 0
   },
   {
     id: 12,
     name: "Suzy",
     gender: "Female",
     category: "cool",
-    image: 'coolCat03.jpg'
+    image: 'coolCat03.jpg',
+    like: 0
   },
   {
     id: 13,
     name: "Annie",
     gender: "Female",
     category: "cool",
-    image: 'coolCat04.jpg'
+    image: 'coolCat04.jpg',
+    like: 0
   },
   {
     id: 14,
     name: "Calvin",
     gender: "Male",
     category: "cool",
-    image: 'coolCat05.jpg'
+    image: 'coolCat05.jpg',
+    like: 0
 
   },
   {
@@ -108,14 +122,16 @@ let mock = [
     name: "Ken",
     gender: "Male",
     category: "cool",
-    image: 'coolCat06.jpg'
+    image: 'coolCat06.jpg',
+    like: 0
   },
   {
     id: 16,
     name: "Ryan",
     gender: "Male",
     category: "cool",
-    image: 'coolCat07.jpg'
+    image: 'coolCat07.jpg',
+    like: 0
   },
 
 
@@ -125,35 +141,40 @@ let mock = [
     name: "Ean",               // name
     gender: "Male",             // price
     category: "cute",  // country
-    image: 'cuteCat01.jpg' // image
+    image: 'cuteCat01.jpg', // image
+    like: 0
   },
   {
     id: 18,
     name: "Jared",
     gender: "Male",
     category: "cute",
-    image: "cuteCat02.jpg"
+    image: "cuteCat02.jpg",
+    like: 0
   },
   {
     id: 19,
     name: "Bryan",
     gender: "Male",
     category: "cute",
-    image: 'cuteCat03.jpg'
+    image: 'cuteCat03.jpg',
+    like: 0
   },
   {
     id: 20,
     name: "Bella",
     gender: "Female",
     category: "cute",
-    image: 'cuteCat04.jpg'
+    image: 'cuteCat04.jpg',
+    like: 0
   },
   {
     id: 21,
     name: "Isaac",
     gender: "Male",
     category: "cute",
-    image: 'cuteCat05.jpg'
+    image: 'cuteCat05.jpg',
+    like: 0
 
   },
   {
@@ -161,28 +182,32 @@ let mock = [
     name: "Shae",
     gender: "Female",
     category: "cute",
-    image: 'cuteCat06.jpg'
+    image: 'cuteCat06.jpg',
+    like: 0
   },
   {
     id: 23,
     name: "Carson",
     gender: "Male",
     category: "cute",
-    image: 'cuteCat07.jpg'
+    image: 'cuteCat07.jpg',
+    like: 0
   },
   {
     id: 24,
     name: "Lauren",
     gender: "Female",
     category: "cute",
-    image: 'cuteCat08.jpg'
+    image: 'cuteCat08.jpg',
+    like: 0
   },
   {
     id: 25,
     name: "Levi",
     gender: "Male",
     category: "cute",
-    image: 'cuteCat09.jpg'
+    image: 'cuteCat09.jpg',
+    like: 0
   },
 
 
@@ -192,14 +217,16 @@ let mock = [
     name: "Ken",               // name
     gender: "Male",             // price
     category: "fun",  // country
-    image: 'funCat01.jpg' // image
+    image: 'funCat01.jpg', // image
+    like: 0
   },
   {
     id: 27,
     name: "Daniel",
     gender: "Male",
     category: "fun",
-    image: "funCat02.jpg"
+    image: "funCat02.jpg",
+    like: 0
   }
 ]
 

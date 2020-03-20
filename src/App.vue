@@ -7,12 +7,12 @@
       </router-link>
     </div>
     <div id="side">
-      <!--<router-link to="/rank">
+      <router-link to="/rank">
         <div class="menu-item browse">
           <img src="/images/catFavicon.ico">
           <p>Rank</p>
         </div>
-      </router-link>-->
+      </router-link>
       <router-link to="/category">
         <div class="menu-item browse">
           <img src="/images/catFavicon.ico">

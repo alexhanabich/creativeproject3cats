@@ -30,6 +30,7 @@ export default {
   methods: {
     addLiked: function(cat) {
         this.$root.$data.liked.push(cat);
+        cat.like += 1;
     }
   }
 }
