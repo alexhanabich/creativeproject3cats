@@ -7,6 +7,12 @@
       </router-link>
     </div>
     <div id="side">
+      <!--<router-link to="/rank">
+        <div class="menu-item browse">
+          <img src="/images/catFavicon.ico">
+          <p>Rank</p>
+        </div>
+      </router-link>-->
       <router-link to="/category">
         <div class="menu-item browse">
           <img src="/images/catFavicon.ico">
@@ -33,6 +39,19 @@
 body {
   margin: 50px 100px;
   background-color: #C6B89B;
+}
+
+#side {
+  font-family: 'Amatic SC';
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  color: white;
 }
 
 #menu {
@@ -66,7 +85,7 @@ body {
 }
 
 #side img {
-  width: 50px;
+  width: 45px;
 }
 
 .menu-item {

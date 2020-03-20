@@ -14,10 +14,6 @@
     </div>
 
     <div class="cat" v-for="cat in liked" :key="cat.id">
-
-
-
-
       <div class="info">
         <h1>{{cat.name}}</h1>
         <!-- <p>{{cat.category}}</p> -->
@@ -28,7 +24,8 @@
       </div>
 
       <div class="gender">
-        <h2>{{cat.gender}}</h2>
+        <h2 v-if="cat.gender === 'Male'"><i class="fas fa-mars fa-lg" style="color:#2F81C7;"></i></h2>
+        <h2 v-if="cat.gender === 'Female'"><i class="fas fa-venus fa-lg" style="color:#E4787E"></i></h2>
         <button class="auto" @click="unLike(cat)">Unlike</button>
       </div>
     </div>
@@ -80,6 +77,7 @@ export default {
   margin: 10px;
   margin-top: 50px;
   width: 200px;
+  font-family: 'Amatic SC';
 }
 
 .cat img {
@@ -114,6 +112,7 @@ export default {
   height: 280px;
   border-radius: 50px;
   border-bottom-right-radius: 0;
+  font-family: 'Amatic SC';font-size: 15px
 }
 
 .info h1 {
@@ -131,6 +130,7 @@ export default {
 
 .gender {
   display: flex;
+  margin-top: 0px !important;
 }
 
 .quantity {
@@ -139,10 +139,12 @@ export default {
 }
 
 button {
-  height: 50px;
+  height: 60px;
   background: #000;
   color: white;
   border: none;
+  border-radius: 7px;
+  font-size: 20px;
 }
 
 .auto {

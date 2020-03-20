@@ -100,6 +100,7 @@ export default {
   font-size: 75%;
 }
 
+
 button {
   height: 50px;
   background: #000;
@@ -110,6 +111,17 @@ button {
 
 .auto {
   margin-left: auto;
+  transition-duration: 0.1s;
+}
+
+.auto:hover {
+  background-color: white;
+  color: black;
+}
+
+.info {
+  font-family: 'Amatic SC';
+  font-size: 40px !important;
 }
 
 .category {

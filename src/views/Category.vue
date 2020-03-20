@@ -36,3 +36,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .pure-menu-item {
+    font-family: 'Amatic SC';
+    font-size: 30px;
+  }
+</style>

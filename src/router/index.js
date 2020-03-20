@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Category from '../views/Category.vue'
 import Liked from '../views/Liked.vue'
+import Rank from '../views/Rank.vue'
 
 Vue.use(VueRouter)
 
@@ -11,6 +12,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/rank',
+    name: 'Rank',
+    component: Rank
   },
   {
     path: '/category',
