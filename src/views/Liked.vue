@@ -3,6 +3,7 @@
   <div class="cats">
 
     <h1 class="noLike" v-if="liked.length === 0">Oh No! You didn't like any cats!</h1>
+    
 
     <div v-if="liked.length > 0">
       <div class="specialNotice">
@@ -44,6 +45,7 @@ export default {
   },
   methods: {
     unLike: function(cat) {
+      cat.bool = true;
       var filteredliked = [];
       filteredliked = this.$root.$data.liked.filter(item => item !== cat)
       this.$root.$data.liked = filteredliked

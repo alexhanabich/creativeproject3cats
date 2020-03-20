@@ -29,8 +29,9 @@ export default {
   },
   methods: {
     addLiked: function(cat) {
-        if (cat.like === 0) {
+        if (cat.bool === true) {
           this.$root.$data.liked.push(cat);
+          cat.bool = false;
         }
         cat.like += 1;
     }

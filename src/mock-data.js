@@ -6,7 +6,8 @@ let mock = [
     gender: "Male",             // price
     category: "beautiful",  // country
     image: 'beautifulCat01.jpg', // image
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 2,
@@ -14,7 +15,8 @@ let mock = [
     gender: "Female",
     category: "beautiful",
     image: "beautifulCat02.jpg",
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 3,
@@ -22,7 +24,8 @@ let mock = [
     gender: "Male",
     category: "beautiful",
     image: 'beautifulCat03.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 4,
@@ -30,7 +33,8 @@ let mock = [
     gender: "Male",
     category: "beautiful",
     image: 'beautifulCat04.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 5,
@@ -38,7 +42,8 @@ let mock = [
     gender: "Male",
     category: "beautiful",
     image: 'beautifulCat05.jpg',
-    like: 0
+    like: 0,
+    bool: true
 
   },
   {
@@ -47,7 +52,8 @@ let mock = [
     gender: "Male",
     category: "beautiful",
     image: 'beautifulCat06.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 7,
@@ -55,7 +61,8 @@ let mock = [
     gender: "Male",
     category: "beautiful",
     image: 'beautifulCat07.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 8,
@@ -63,7 +70,8 @@ let mock = [
     gender: "Male",
     category: "beautiful",
     image: 'beautifulCat08.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 9,
@@ -71,7 +79,8 @@ let mock = [
     gender: "Female",
     category: "beautiful",
     image: 'beautifulCat09.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
 
 
@@ -82,7 +91,8 @@ let mock = [
     gender: "Male",             // price
     category: "cool",  // country
     image: 'coolCat01.jpg', // image
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 11,
@@ -90,7 +100,8 @@ let mock = [
     gender: "Male",
     category: "cool",
     image: "coolCat02.jpg",
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 12,
@@ -98,7 +109,8 @@ let mock = [
     gender: "Female",
     category: "cool",
     image: 'coolCat03.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 13,
@@ -106,7 +118,8 @@ let mock = [
     gender: "Female",
     category: "cool",
     image: 'coolCat04.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 14,
@@ -114,7 +127,8 @@ let mock = [
     gender: "Male",
     category: "cool",
     image: 'coolCat05.jpg',
-    like: 0
+    like: 0,
+    bool: true
 
   },
   {
@@ -123,7 +137,8 @@ let mock = [
     gender: "Male",
     category: "cool",
     image: 'coolCat06.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 16,
@@ -131,7 +146,8 @@ let mock = [
     gender: "Male",
     category: "cool",
     image: 'coolCat07.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
 
 
@@ -142,7 +158,8 @@ let mock = [
     gender: "Male",             // price
     category: "cute",  // country
     image: 'cuteCat01.jpg', // image
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 18,
@@ -150,7 +167,8 @@ let mock = [
     gender: "Male",
     category: "cute",
     image: "cuteCat02.jpg",
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 19,
@@ -158,7 +176,8 @@ let mock = [
     gender: "Male",
     category: "cute",
     image: 'cuteCat03.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 20,
@@ -166,7 +185,8 @@ let mock = [
     gender: "Female",
     category: "cute",
     image: 'cuteCat04.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 21,
@@ -174,7 +194,8 @@ let mock = [
     gender: "Male",
     category: "cute",
     image: 'cuteCat05.jpg',
-    like: 0
+    like: 0,
+    bool: true
 
   },
   {
@@ -183,7 +204,8 @@ let mock = [
     gender: "Female",
     category: "cute",
     image: 'cuteCat06.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 23,
@@ -191,7 +213,8 @@ let mock = [
     gender: "Male",
     category: "cute",
     image: 'cuteCat07.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 24,
@@ -199,7 +222,8 @@ let mock = [
     gender: "Female",
     category: "cute",
     image: 'cuteCat08.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 25,
@@ -207,7 +231,8 @@ let mock = [
     gender: "Male",
     category: "cute",
     image: 'cuteCat09.jpg',
-    like: 0
+    like: 0,
+    bool: true
   },
 
 
@@ -218,7 +243,8 @@ let mock = [
     gender: "Male",             // price
     category: "fun",  // country
     image: 'funCat01.jpg', // image
-    like: 0
+    like: 0,
+    bool: true
   },
   {
     id: 27,
@@ -226,7 +252,8 @@ let mock = [
     gender: "Male",
     category: "fun",
     image: "funCat02.jpg",
-    like: 0
+    like: 0,
+    bool: true
   }
 ]
 
